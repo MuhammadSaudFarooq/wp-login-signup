@@ -9,3 +9,13 @@
  * Version: 1.0.0
  * License: MIT
  **/
+
+if (!defined('ABSPATH')) {
+    exit;
+}
+
+define("PLUGIN_PREFIX", "wpls");
+define("PLUGIN_DIR_URL", plugin_dir_url(__FILE__));
+define("PLUGIN_DIR_PATH", plugin_dir_path(__FILE__));
+
+require_once __DIR__ . DIRECTORY_SEPARATOR . 'includes' . DIRECTORY_SEPARATOR . 'wpls_integration.php';
