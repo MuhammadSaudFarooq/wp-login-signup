@@ -17,5 +17,7 @@ if (!defined('ABSPATH')) {
 define("PLUGIN_PREFIX", "wpls");
 define("PLUGIN_DIR_URL", plugin_dir_url(__FILE__));
 define("PLUGIN_DIR_PATH", plugin_dir_path(__FILE__));
+define("AJAX_URL", admin_url('admin-ajax.php'));
+define("SITE_URL", site_url());
 
 require_once __DIR__ . DIRECTORY_SEPARATOR . 'includes' . DIRECTORY_SEPARATOR . 'wpls_integration.php';
